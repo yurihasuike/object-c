@@ -1,0 +1,320 @@
+/*
+ Localizable.strings
+ velly
+ 
+ Created by m_saruwatari on 2015/02/06.
+ Copyright (c) 2015年 mamoru.saruwatari. All rights reserved.
+ */
+
+AppName = "myrecoup";
+
+// ---------------
+// Common
+// ---------------
+Previous = "Prev";
+Next     = "Next";
+Cancel   = "Cancel";
+Open   = "Open";
+Save     = "Save";
+Send     = "Send";
+Report   = "Report";
+URLCopy  = "URL Copy";
+Error    = "Error";
+Comp     = "OK";
+OK       = "OK";
+YES      = "YES";
+NO       = "NO";
+PostUnit = "<?post_cnt> Posts";
+UserFollow = "+ Follow";
+UserFollowed = "Followed";
+MakeAppointment = "Make an appointment";
+MessagePlaceHolder = "Let's send Message!";
+OpenImageInSafari = "Open Image in Safari";
+OpenLinkInSafari = "Open Link in Safari";
+Typing = "Typing...";
+Unread = "Unread";
+Pro    = "PRO";
+DateFormat   = "yyyy/MM/dd";
+DateTimezone = "UTC";
+PostActionTitle = "Plz select";
+PostActionTakePic = "Take a picture";
+PostActionLib = "Select from Library";
+PostActionTakeMov = "Take a movie";
+PostActionCancel = "Cancel";
+MovieSavingMessage = "Saving the video";
+ProcessingMessage = "Processing...";
+
+// ---------------
+// Common Msg
+// ---------------
+MsgSaved  = "Saved";
+MsgSocialComp = "Authorized";
+MsgSocialClear = "Deauthorized";
+MsgConfLogout  = "Log out?";
+MsgDoLogout    = "Log out";
+MsgDidLogout   = "Logged out";
+MsgFollowed    = "Followed";
+MsgNoFollowed  = "Follow Release";
+MsgGood        = "Liked";
+MsgDelGood     = "Like Release";
+MSgDoComment   = "Send Comment";
+MsgConfActionReport = "Report with Respect?";
+MsgDoActionReport   = "Report Post";
+MsgDoActionDelete   = "Delete Post";
+MsgConfActionDelete = "Delete Post?";
+MsgDoActionEdit   = "Edit Post";
+MsgDoActionURLCopy  = "Copied URL";
+MsgDoActionTwitterTweet      = "Twitter Tweet";
+MsgDoActionTwitterTweeted    = "Tweeted";
+MsgDoActionTwitterTweetFaild = "Failed Tweet. plz Retry..";
+MsgDoActionFacebookShare       = "Facebook Share";
+MsgDoActionFacebookShared      = "Shared";
+MsgDoActionFacebookSharedFaild = "Failed Share。plz Retry..";
+MsgDoActionLineSend            = "Send LINE";
+MsgDetailCommentPlaceHolder = "Comment...";
+MsgDetailCommentSend = "Send";
+MsgDoActionPostSend = "Post";
+MsgDoActionPostSendFaild = "Failed Send Post.";
+MsgDoActionPostSendComp  = "Complete Send Post.";
+MsgDoActionPostDeleteFaild = "Failed Delete Post.";
+MsgDoActionPostDeleteComp = "Complete Delete Post.";
+MsgDoActionPostUpdateFaild = "Failed Update Post.";
+MsgDoActionPostUpdateComp = "Complete Update Post.";
+
+MsgNoCameraAction = "can not be taken with this device..";
+MsgResetComfAction = "Are you sure you want to discard a Photo?";
+
+MsgNoNetwork = "can not have an Internet connection..";
+MsgNoNetworkRetry = "retry";
+MsgNoFollow = "if you tap `Follow`,\n you will get posts.";
+MsgNoFLogin = "Let's login/sign up and follow other people.";
+MsgNofLoginRetry = "Login/Sign up";
+MsgNofLoginRetry = "会員登録・ログイン";
+MsgNoChannel = "There is no message./nYou can get messages if you book beauty salons.";
+MsgNoMessage = "Let's write a message.";
+MsgLoadWebView = "Failed Loading．．．";
+
+MsgPostReportToMail       = "report@myreco.me";
+MsgPostReportSubject      = "[myreco up]Report to Post";
+MsgPostReportBody         = "【userId】<?user_pk> \n【Post URL】 \n<?post_url> \n【Reason】\n ";
+MsgPostReportBodyNoUserID = "【Post URL】 \n<?post_url> \n【Reason】\n ";
+
+MsgPostFacebookShareBody  = "";
+MsgPostFacebookShareTitle = "myreco up";
+MsgPostTwitterTweetBody   = "<?post_url> @myrecome #myreco";
+
+// ---------------
+// Common Action Msg
+// ---------------
+MsgActionDetailComment    = "Display All Comment : <?postCnt> ";    
+MsgActionIconSettingTitle = "Select Image";
+MsgActionIconCamera       = "Capture by Camera";
+MsgActionIconLib          = "Load Image Library";
+MsgActionSocialAuth       = "Authorize";
+MsgActionSocialNoAuth     = "DeAuthorize";
+MsgActionSocialTwAuth     = "Authorize Twitter?";
+MsgActionSocialFbAuth     = "Authorize Facebook?";
+MsgActionPostComment      = "Send Comment";
+MsgActionPostSend         = "send this content?";
+
+
+// ---------------
+// Page Title
+// ---------------
+NavTabHome    = "Home";
+NavTabRanking = "Ranking";
+NavTabRecord  = "Record";
+NavTabInfo    = "Info";
+NavTabPost    = "Post";
+NavTabPostLib = "Photo";
+NavTabProfile = "Profile";
+NavTabSetting = "Setting";
+
+PageLogin     = "Login";
+PageRegist    = "Regist";
+PageRegistInput = "RegistInput";
+
+PageFollow    = "Follow";
+PageFollower  = "Follower";
+Recommend     = "Recommended users";
+
+PagePostCategory = "Select Category";
+
+PageNoPasswd      = "NoPassword";
+PageRegistTerms   = "Terms";
+PageChangePasswd  = "Change Password";
+PageProAccount    = "Pro Account Application";
+PageContact       = "Contact";
+PagePolicy        = "App Policy";
+PageTerms         = "App Terms";
+PageVersion       = "App Version";
+
+PageSectionSupport      = "Support";
+PageSectionSettingPush  = "Push Notification's Setting";
+PageSectionSettingPhoto = "Photo Setting";
+
+PostSectionCategory = "Select Category";
+PostSectionShare    = "Share";
+PostSectionTwitter  = "Twitter";
+PostSectionFacebook = "Facebook";
+
+PostUpdateTitle     = "Update";
+
+// register
+RegistUserPhotoNotCamera = "Camera is not available in this device";
+// post
+CameraPermitError = "Access to the camera is unauthorized. \ n Settings > Privacy > Please allow the camera.";
+
+// info
+InfoSegmentTitleNews  = "News";
+InfoSegmentTitleInfo  = "Info";
+// info follow
+InfoFollowUserSuffix = " Followed";
+
+// info
+// info follow
+InfoFollowUserSuffix  = " Followed";
+InfoLikeUserSuffix    = " Liked";
+InfoRankUpUserSuffix  = "<?categoryName> : ranked up to <?rankNew>";
+InfoCommentUserSuffix = " Commented";
+
+InfoRankUpItemNameAll = "Overall Ranking";
+
+// ---------------
+// Page Item Name
+// ---------------
+
+PageHomeSortNew         = "New";
+PageHomeSortPop         = "Hot";
+PageRankingSortPro      = "Pro";
+PageRankingSortNormal   = "Amateur";
+
+PageProfileEditSexNon   = "Non";
+PageProfileEditSexMan   = "Man";
+PageProfileEditSexWoman = "Woman";
+
+PageSettingSectionTitleSupport   = "Support";
+PageSettingSectionTitlePushAlert = "Send Push";
+PageSettingSectionTitleImageSetting = "Setting Icon";
+
+PageSettingSectionItemFindFollowing = "Find to Follow User";
+PageSettingSectionItemInviteMail    = "Invite Mail";
+PageSettingSectionItemProAccount    = "Account Pro";
+PageSettingSectionItemInquiry       = "Contact";
+PageSettingSectionItemPolicy        = "App Policy";
+PageSettingSectionItemTerms         = "App Terms";
+PageSettingSectionItemVersion       = "App Version";
+PageSettingSectionItemPushFollowed  = "When it is Follow";
+PageSettingSectionItemPushGood      = "When it is Like";
+PageSettingSectionItemPushComment   = "When it is Comment";
+PageSettingSectionItemPushChangeRanking = "When it is Ranked Up";
+PageSettingSectionItemSavePostImage = "Save Post Image";
+PageSettingSectionItemLogout        = "Log out";
+
+SearchViewCategoryPostCount         = "posts";
+SearchViewCategoryCollectionTitle   = "Search by categories";
+
+childCategorySelect = "Select child category";
+
+// ---------------
+// TextField Placeholder
+// ---------------
+TFPHolderRegistEmail = "Email";
+
+TFPHolderProfileEditUserName        = "Nick Name";
+TFPHolderProfileEditEmail           = "Email";
+TFPHolderProfileEditUserId          = "User ID";
+TFPHolderProfileEditIntroduction    = "Introduction";
+TFPHolderProfileEditPasswdEditTitle = "Edit Password";
+TFPHolderProfileEditUserInfo        = "User Data";
+TFPHolderProfileEditAreaTitle       = "Area";
+TFPHolderProfileEditBirthTitle      = "Birthday";
+TFPHolderProfileEditSeiTitle        = "Sex";
+TFPHolderProfileEditSocial          = "Social";
+TFPHolderProfileEditTwStatus        = "No Authenticate";
+TFPHolderProfileEditFbStatus        = "No Authenticate";
+TFPHolderProfileEditSaveBtn         = "Save";
+
+TFPHolderPostEditDescription        = "Post Message(within 150 characters)";
+
+// ---------------
+// Validation
+// ---------------
+ValidateUserEmptyEmail = "Required Email";
+ValidateUserInvalidEmail = "Invalid Email";
+ValidateUserInvalidLengthEmail = "MaxLength 250 words Email";
+ValidateUserEmptyEmail = "Required Email";
+ValidateUserInvalidEmail = "Invalid Email";
+ValidateUserInvalidUserID = "Invalid UserID";
+ValidateUserInvalidUserName = "Required Nickname";
+ValidateUserInvalidLengthUserName = "MaxLength Nickname";
+ValidateUserInvalidUserId   = "Invalid User Id";
+ValidateUserInvalidLengthUserId   = "MaxLength 30 words User Id";
+ValidateUserInvalidLengthDescrip  = "MaxLength 200 words Introduction";
+
+ValidateUserInvalidPassword = "Password in the 8 to 16 characters";
+ValidateUserInvalidTerms    = "Agree to the App Terms";
+
+ValidatePostEmptyComment   = "Required Comment";
+ValidatePostMaxOverComment = "Comment within 180 characters";
+
+ValidatePostSelectCategory = "Required Select Category";
+ValidatePostMaxOverDescrip = "Caption within 150 characters";
+ValidatePostLineMaxOverDescrip = "Caption input in less than 5 lines";
+
+ValidatePostSaveAlbumRestricted = "Access to the photos is not allowed. Please allow at \n Settings> General > functional restriction";
+ValidatePostSaveAlbumDenied     = "Access to the photos is not allowed. Please allow at \n Settings> Privacy > Photos";
+
+ValidateLoadingImgInvalid       = "The ratio of vertical and horizontal can not select portrait, landscape image";
+
+
+// ---------------
+// Invite App Mail
+// ---------------
+InviteMailSubject = "To make with everyone uses the beauty catalogs app myreco up";
+InviteMailBody    = "Hair and Nail Design photo sharing app myreco up: I'm using the (User Name: <?username>).\n Download the app please check the photos. \n\n Download -> http://up.myreco.me/\n\n";
+
+// ---------------
+// Introduction message
+// ---------------
+IntroductionNext = "Next >";
+IntroductionPage1Msg = "Clip the picture to find your favorite style! Trying to follow!";
+IntroductionPage2Msg = "Let's post by photographing the beauty style of your recommended!";
+IntroductionPage3Msg = "myrecoup will cheer your beautiful!";
+IntroductionPage3SubMsg = "Lets Start!";
+
+// ---------------
+// API
+// ---------------
+ApiWaitingSend     = "Send...";
+ApiWaitingLoading  = "Loading...";
+ApiWaitingCheck    = "Check...";
+
+ApiErrorNetwork = "Not Can Connect..";
+ApiErrorLogout  = "LogOut Failed..plz retry.";
+
+ApiErrorNetwork    = "Not Do Connect..";
+ApiErrorLogin      = "SignIn Failed..plz retry.";
+ApiErrorLogout     = "LogOut Failed..plz retry.";
+ApiErrorUserUpdate = "Failed to Send..plz retry.";
+ApiErrorExistEmail = "Not Do Connect..plz retry.";
+ApiErrorUserRegist = "Failed to Regist...plz retry.";
+ApiErrorGood       = "Not Do Connect..plz retry.";
+ApiErrorNoGood     = "Not Do Connect..plz retry.";
+ApiErrorFollow     = "Not Do Connect..plz retry.";
+ApiErrorNoFollow   = "Not Do Connect..plz retry.";
+ApiErrorComment    = "Failed to Send...plz retry.";
+ApiErrorSocial     = "Failed to Authentication...plz retry.";
+ApiErrorSocialConflict = "Failed to authenticated by other account...plz retry.";
+ApiErrorDeviceToken = "It failed to send the device token : ";
+
+ApiCautionRegistCheckExist = "Email addresses that are already registered.";
+ApiCautionRegistCheckExistUserId = "User Id that are already registered.";
+ApiSuccessRegistCompUser   = "Regist Complate.";
+//ApiFaildRegistCompUser     = "Regist Failed..plz retry.";
+ApiErrorLoginNotFound = "Not Found User Info.";
+
+ApiCautionLoginCheckSuccess = "Loginned.";
+ApiCautionLoginCheckInvalid = "Invalid Email and Password.";
+
+

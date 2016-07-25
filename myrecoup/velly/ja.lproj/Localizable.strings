@@ -1,0 +1,321 @@
+/* 
+  Localizable.strings
+  velly
+
+  Created by m_saruwatari on 2015/02/06.
+  Copyright (c) 2015年 mamoru.saruwatari. All rights reserved.
+*/
+
+AppName = "myrecoup";
+
+// ---------------
+// Common
+// ---------------
+Previous = " ＜ ";
+Next     = " ＞ ";
+Cancel   = "キャンセル";
+Open   = "開く";
+Save     = "保存";
+Send     = "送信する";
+Report   = "通報する";
+URLCopy  = "URLをコピー";
+Error    = "エラー";
+Comp     = "完了";
+OK       = "OK";
+YES      = "はい";
+NO       = "いいえ";
+PostUnit = "<?post_cnt> 投稿";
+UserFollow = "+ フォローする";
+UserFollowed = "+ フォロー済み";
+MakeAppointment = "予約する";
+MessagePlaceHolder = "行きたい日時を送ってみよう！";
+OpenImageInSafari = "Safariで開く";
+OpenLinkInSafari = "Safariで開く";
+Typing = "タイプ中...";
+Unread = "未読";
+Pro    = "PRO";
+DateFormat    = "yyyy年MM月dd日";
+DateFormatSrv = "yyyy-MM-dd";
+DateTimezone = "JST";
+PostActionTitle = "選択してください。";
+PostActionTakePic = "写真を撮る";
+PostActionLib = "アルバムから選択する";
+PostActionTakeMov = "ムービーを撮る";
+PostActionCancel = "キャンセルする";
+MovieSavingMessage = "撮影した動画を保存中です";
+ProcessingMessage = "処理中";
+
+// ---------------
+// Common Msg
+// ---------------
+MsgSaved  = "保存しました";
+MsgSocialComp = "連携しました";
+MsgSocialClear = "解除しました";
+MsgConfLogout  = "ログアウトしてよろしいですか？";
+MsgDoLogout    = "ログアウトする";
+MsgDidLogout   = "ログアウトしました";
+MsgFollowed    = "フォローしました";
+MsgNoFollowed  = "フォロー解除しました";
+MsgGood        = "いいねしました";
+MsgDelGood     = "いいねを解除しました";
+MSgDoComment   = "コメントを送信しました";
+MsgConfActionReport = "投稿内容に関して通報しますか？";
+MsgDoActionReport   = "不適切な投稿を報告する";
+MsgDoActionDelete   = "投稿を削除する";
+MsgConfActionDelete = "削除してもよろしいですか？";
+MsgDoActionEdit     = "投稿を編集する";
+MsgDoActionURLCopy  = "URLをコピーしました";
+MsgDoActionTwitterTweet      = "Twitter ツイートする";
+MsgDoActionTwitterTweeted    = "ツイートしました";
+MsgDoActionTwitterTweetFaild = "ツイートに失敗しました。再度ご確認ください";
+MsgDoActionFacebookShare       = "Facebook シェアする";
+MsgDoActionFacebookShared      = "シェアしました";
+MsgDoActionFacebookSharedFaild = "シェアに失敗しました。再度ご確認ください";
+MsgDoActionLineSend            = "LINEで送る";
+MsgDetailCommentPlaceHolder = "コメント...";
+MsgDetailCommentSend = "送信";
+MsgDoActionPostSend = "投稿する";
+MsgDoActionPostSendFaild = "投稿の送信に失敗しました";
+MsgDoActionPostSendComp  = "投稿が完了しました";
+MsgDoActionPostDeleteFaild = "投稿の削除に失敗しました";
+MsgDoActionPostDeleteComp = "投稿の削除が完了しました";
+MsgDoActionPostUpdateFaild = "投稿の更新に失敗しました";
+MsgDoActionPostUpdateComp = "投稿の更新が完了しました";
+
+MsgNoCameraAction = "この端末で撮影はできません";
+MsgResetComfAction = "写真が破棄されますがよろしいですか？";
+
+MsgNoNetwork = "インターネット接続がありません";
+MsgNoNetworkRetry = "更新";
+MsgNoFollow = "「フォローする」をタップすると\nフォローした人のみの投稿を表示します。";
+MsgNoFLogin = "会員登録してお気に入りの\nユーザーを「フォロー」しよう";
+MsgNofLoginRetry = "会員登録・ログイン";
+MsgNofLoginRetry = "会員登録・ログイン";
+MsgNoChannel = "メッセージがありません\n予約のやり取りをすると一覧が表示されます";
+MsgNoMessage = "下の入力欄にメッセージを入力しよう";
+MsgLoadWebView = "ロード失敗．．．";
+
+MsgPostReportToMail       = "report@myreco.me";
+MsgPostReportSubject      = "[myreco up]不適切な投稿の報告";
+MsgPostReportBody         = "【ユーザーID】<?user_pk> \n【不適切な写真のURL】 \n<?post_url> \n【不適切な理由を記載してください】\n ";
+MsgPostReportBodyNoUserID = "【不適切な写真のURL】 \n<?post_url> \n【不適切な理由を記載してください】\n ";
+
+MsgPostFacebookShareBody  = "";
+MsgPostFacebookShareTitle = "myreco up";
+MsgPostTwitterTweetBody   = "<?post_url> @myrecome #myreco";
+
+// ---------------
+// Common Action Msg
+// ---------------
+MsgActionDetailComment    = "コメント<?postCnt>件を表示"; // コメント<?postCnt>件を全て表示
+MsgActionIconSettingTitle = "写真を設定します";
+MsgActionIconCamera       = "カメラで撮影する";
+MsgActionIconLib          = "アルバムから読み込む";
+MsgActionSocialAuth       = "連携する";
+MsgActionSocialNoAuth     = "解除する";
+MsgActionSocialTwAuth     = "Twitter連携してよろしいですか？";
+MsgActionSocialFbAuth     = "Facebook連携してよろしいですか？";
+MsgActionPostComment      = "コメントを送信します";
+MsgActionPostSend         = "この内容で投稿してよろしいですか？";
+
+// ---------------
+// Page Title
+// ---------------
+NavTabHome    = "Home";
+NavTabRanking = "Ranking";
+NavTabRecord  = "Record";
+NavTabInfo    = "お知らせ";
+NavTabPost    = "投稿";
+NavTabPostLib = "写真";
+NavTabProfile = "プロフィール";
+NavTabSetting = "オプション";
+
+PageLogin     = "ログイン";
+PageRegist    = "新規登録";
+PageRegistInput = "新規登録";
+
+PageFollow    = "フォロー";
+PageFollower  = "フォロワー";
+Recommend     = "おすすめユーザーのフォロー";
+
+PagePostCategory = "カテゴリーを選択";
+
+PageNoPasswd      = "パスワードを忘れた場合";
+PageRegistTerms   = "利用規約";
+PageChangePasswd  = "パスワード変更";
+PageProAccount    = "プロアカウント申請";
+PageContact       = "お問い合わせ";
+PagePolicy        = "プライバシーポリシー";
+PageTerms         = "サービス規約";
+PageVersion       = "このバージョンについて";
+
+PageSectionSupport      = "サポート";
+PageSectionSettingPush  = "プッシュ通知設定";
+PageSectionSettingPhoto = "写真設定";
+
+PostSectionCategory = "カテゴリーを選択";
+PostSectionShare    = "共有する";
+PostSectionTwitter  = "Twitter";
+PostSectionFacebook = "Facebook";
+
+PostUpdateTitle     = "投稿更新";
+
+// register
+RegistUserPhotoNotCamera = "この端末ではカメラ機能は使用できません";
+// post
+CameraPermitError = "カメラへのアクセスが未許可です。\n設定 > プライバシー > でカメラを許可してください。";
+
+// info
+InfoSegmentTitleNews  = "ニュース";
+InfoSegmentTitleInfo  = "通知";
+// info follow
+InfoFollowUserSuffix  = "さんがあなたをフォローしました";
+InfoLikeUserSuffix    = "さんがあなたの投稿に「いいね」しました";
+InfoRankUpUserSuffix  = "あなたの<?categoryName>カテゴリでのランキングが<?rankNew>位にアップしました";
+InfoCommentUserSuffix = "さんがあなたの投稿にコメントしました";
+
+InfoRankUpItemNameAll = "総合ランキング";
+
+// ---------------
+// Page Item Name
+// ---------------
+PageHomeSortNew         = "新着";
+PageHomeSortPop         = "人気";
+PageRankingSortPro      = "プロユーザ";
+PageRankingSortNormal   = "一般ユーザ";
+
+PageProfileEditSexNon   = "未設定";
+PageProfileEditSexMan   = "男性";
+PageProfileEditSexWoman = "女性";
+
+PageSettingSectionTitleSupport   = "サポート";
+PageSettingSectionTitlePushAlert = "プッシュ通知";
+PageSettingSectionTitleImageSetting = "写真設定";
+
+PageSettingSectionItemFindFollowing = "フォローするユーザを見つける";
+PageSettingSectionItemInviteMail    = "メールで招待する";
+PageSettingSectionItemProAccount    = "アカウント切替(美容師やネイリストの方)";
+PageSettingSectionItemInquiry       = "お問い合わせ";
+PageSettingSectionItemPolicy        = "プライバシーポリシー";
+PageSettingSectionItemTerms         = "サービス規約";
+PageSettingSectionItemVersion       = "このバーションについて";
+PageSettingSectionItemPushFollowed  = "フォローされた時";
+PageSettingSectionItemPushGood      = "いいねされた時";
+PageSettingSectionItemPushComment   = "コメントされた時";
+PageSettingSectionItemPushChangeRanking = "順位が変更した時";
+PageSettingSectionItemSavePostImage = "元の画像を保存";
+PageSettingSectionItemLogout        = "ログアウト";
+
+SearchViewCategoryPostCount         = "投稿";
+SearchViewCategoryCollectionTitle   = "カテゴリーから検索";
+
+childCategorySelect = "詳細カテゴリを選択";
+
+// ---------------
+// TextField Placeholder
+// ---------------
+TFPHolderRegistEmail = "メールアドレス";
+
+TFPHolderProfileEditUserName        = "ニックネーム";
+TFPHolderProfileEditEmail           = "メールアドレス";
+TFPHolderProfileEditUserId          = "ユーザID（半角英数）";
+TFPHolderProfileEditIntroduction    = "自己紹介";
+TFPHolderProfileEditPasswdEditTitle = "パスワード変更";
+TFPHolderProfileEditUserInfo        = "ユーザ情報（登録していただいた情報を元にオススメのスタイルやスタイリストを紹介します。）";
+TFPHolderProfileEditAreaTitle       = "エリア";
+TFPHolderProfileEditBirthTitle      = "生年月日";
+TFPHolderProfileEditSeiTitle        = "性別";
+TFPHolderProfileEditSocial          = "連携";
+TFPHolderProfileEditTwStatus        = "連携していません";
+TFPHolderProfileEditFbStatus        = "連携していません";
+TFPHolderProfileEditSaveBtn         = "保存";
+
+TFPHolderPostEditDescription        = "キャプションを書く(150文字以内)";
+
+
+// ---------------
+// Validation
+// ---------------
+ValidateUserEmptyEmail = "メールアドレスを入力してください";
+ValidateUserInvalidEmail = "正しいメールアドレスを入力してください";
+ValidateUserInvalidUserID = "ユーザーIDは半角英数で入力してください。";
+ValidateUserInvalidLengthEmail = "メールアドレスは、250文字以内で入力してください";
+ValidateUserInvalidUserName = "ニックネームを入力してください";
+ValidateUserInvalidLengthUserName = "ニックネームは、10文字以内で入力してください";
+ValidateUserInvalidUserId   = "ユーザIDを正しく入力してください";
+ValidateUserInvalidLengthUserId   = "ユーザIDは、30文字以内で入力してください";
+ValidateUserInvalidLengthDescrip  = "自己紹介は、200文字以内で入力してください";
+
+ValidateUserInvalidPassword = "パスワードを8〜16文字で入力してください";
+ValidateUserInvalidTerms    = "利用規約に同意のもと登録してください";
+
+ValidatePostEmptyComment   = "コメントを入力してください";
+ValidatePostMaxOverComment = "コメントは、180文字以内で入力してください";
+
+ValidatePostSelectCategory = "カテゴリーを選択してください";
+ValidatePostMaxOverDescrip = "キャプションは、150文字以内で入力してください";
+ValidatePostLineMaxOverDescrip = "キャプションは、5行以内で入力してください";
+
+ValidatePostSaveAlbumRestricted = "写真へのアクセスが許可されていません。\n設定 > 一般 > 機能制限で許可してください。";
+ValidatePostSaveAlbumDenied     = "写真へのアクセスが許可されていません。\n設定 > プライバシー > 写真で許可してください。";
+
+
+
+
+
+
+
+
+
+
+ValidateLoadingImgInvalid       = "縦横の比率が縦長・横長の画像は選択できません";
+
+
+// ---------------
+// Invite App Mail
+// ---------------
+InviteMailSubject = "みんなで作る美容カタログアプリmyreco upを使っています";
+InviteMailBody    = "ヘアアレンジやネイルデザインの写真共有アプリmyreco up(ユーザーネーム: <?username>)を使っています。\nアプリをダウンロードして写真をチェックしてみてください。\n\nダウンロード→ http://up.myreco.me/\n\n";
+
+// ---------------
+// Introduction message
+// ---------------
+IntroductionNext = "次へ>";
+IntroductionPage1Msg = "あなたのお気に入りのスタイルを見つけて写真をクリップ！フォローしよう！";
+IntroductionPage2Msg = "あなたのオススメの美容スタイルを撮影して投稿しよう！";
+IntroductionPage3Msg = "myrecoupはあなたのキレイを応援します！";
+IntroductionPage3SubMsg = "さあ、始めよう！";
+
+// ---------------
+// API
+// ---------------
+ApiWaitingSend     = "Send...";
+ApiWaitingLoading  = "Loading...";
+ApiWaitingCheck    = "Check...";
+
+ApiErrorNetwork    = "通信に失敗しました";
+ApiErrorLogin      = "ログインに失敗しました。お手数ですが再度ご確認ください";
+ApiErrorLogout     = "ログアウトに失敗しました。お手数ですが再度ご確認ください";
+ApiErrorUserUpdate = "送信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorExistEmail = "通信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorUserRegist = "登録に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorGood       = "送信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorNoGood     = "送信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorFollow     = "送信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorNoFollow   = "送信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorComment    = "コメントの送信に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorSocial     = "認証に失敗しました。お手数ですが再度ご確認ください";
+ApiErrorSocialConflict = "他アカウントで認証済みとなります。お手数ですが再度ご確認ください";
+ApiErrorDeviceToken = "デバイストークンの送信に失敗しました : ";
+
+ApiCautionRegistCheckExist = "メールアドレスが既存ユーザーと重複しています";
+ApiCautionRegistCheckExistUserId = "すでに登録されているユーザーIDのため、登録できません";
+ApiSuccessRegistCompUser   = "登録が完了しました";
+ApiErrorLoginNotFound = "登録情報が見つかりません";
+
+ApiCautionLoginCheckSuccess = "ログインしました";
+ApiCautionLoginCheckInvalid = "メールアドレスとパスワードが違います";
+
+//info message
+NoInfoElementMessage = "お知らせはまだありません。\n\nフォローや投稿を行なうと新着情報が表示されます。";
+

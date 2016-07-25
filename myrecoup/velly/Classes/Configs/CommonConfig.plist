@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>settingCellItems</key>
+	<dict>
+		<key>1</key>
+		<string>フォローするユーザを見つける</string>
+		<key>2</key>
+		<string>メールで招待する</string>
+	</dict>
+</dict>
+</plist>

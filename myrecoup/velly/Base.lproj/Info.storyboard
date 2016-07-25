@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JXa-DK-azO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info View Controller-->
+        <scene sceneID="YG8-nO-dra">
+            <objects>
+                <tableViewController storyboardIdentifier="InfoViewController" id="4KN-Bk-qH6" userLabel="Info View Controller" customClass="InfoViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="pfW-jO-rai">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="InfoFollowViewCellId" rowHeight="64" id="Kyg-FC-6iO" userLabel="InfoFollowViewCell" customClass="InfoFollowTableViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kyg-FC-6iO" id="nyl-F4-zel">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_noimgs.png" translatesAutoresizingMaskIntoConstraints="NO" id="sNY-dN-olA" userLabel="InfoFollowUser">
+                                            <rect key="frame" x="8" y="5" width="38" height="53"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="38" id="Uxt-Mw-ubh"/>
+                                                <constraint firstAttribute="height" constant="53" id="nWQ-EV-eDE"/>
+                                            </constraints>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zk-BZ-9eL" userLabel="InfoFollowBtn">
+                                            <rect key="frame" x="554" y="18" width="30" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="n5T-WM-gB3"/>
+                                                <constraint firstAttribute="height" constant="24" id="ykh-Br-IjN"/>
+                                            </constraints>
+                                            <state key="normal" image="ico_follow.png">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="さんにフォローされました" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgb-3T-wTn" userLabel="InfoFollowTextSuffixLabel">
+                                            <rect key="frame" x="52" y="10" width="493" height="31"/>
+                                            <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="3時間前" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc2-dN-AdH" userLabel="InfoDateLabel">
+                                            <rect key="frame" x="54" y="41" width="100" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="lfJ-Bg-GNE"/>
+                                                <constraint firstAttribute="width" constant="100" id="mnW-8b-0Nt"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="11"/>
+                                            <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="まこみな" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KS-yu-9l4" userLabel="InfoUserNameLabel">
+                                            <rect key="frame" x="52" y="12" width="100" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="1Va-IL-ib6"/>
+                                                <constraint firstAttribute="width" constant="100" id="Bea-Y3-ohA"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="11"/>
+                                            <color key="textColor" red="1" green="0.5725490196078431" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jZF-0b-7ch" userLabel="InfoGoodPostImageView">
+                                            <rect key="frame" x="550" y="12" width="38" height="38"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="38" id="T9k-0M-Tsw"/>
+                                                <constraint firstAttribute="width" constant="38" id="uUP-FZ-8j4"/>
+                                            </constraints>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_rankup.png" translatesAutoresizingMaskIntoConstraints="NO" id="rHi-IK-HTv" userLabel="InfoRankUpImageView">
+                                            <rect key="frame" x="12" y="16" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="Kc0-Rh-maE"/>
+                                                <constraint firstAttribute="height" constant="30" id="wFC-Os-qzf"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="総合ランキングが13位から5位にランキングアップしました" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOo-Fy-SKk" userLabel="InfoRankUpLabel">
+                                            <rect key="frame" x="54" y="10" width="533" height="31"/>
+                                            <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="【myreco up運営者からのご連絡】" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16V-zX-VUe" userLabel="InfoOfficialNewsLabel">
+                                            <rect key="frame" x="44" y="10" width="484" height="31"/>
+                                            <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="HOo-Fy-SKk" secondAttribute="bottom" constant="23" id="1rN-RH-TU1"/>
+                                        <constraint firstItem="rHi-IK-HTv" firstAttribute="leading" secondItem="nyl-F4-zel" secondAttribute="leading" constant="12" id="53i-xP-8bl"/>
+                                        <constraint firstItem="xc2-dN-AdH" firstAttribute="leading" secondItem="nyl-F4-zel" secondAttribute="leading" constant="54" id="5TS-MN-YpE"/>
+                                        <constraint firstItem="xc2-dN-AdH" firstAttribute="top" secondItem="pgb-3T-wTn" secondAttribute="bottom" id="BVx-cK-4oO"/>
+                                        <constraint firstItem="sNY-dN-olA" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="top" constant="5" id="C7S-Zt-OmG"/>
+                                        <constraint firstItem="jZF-0b-7ch" firstAttribute="leading" secondItem="pgb-3T-wTn" secondAttribute="trailing" constant="5" id="ECw-B5-lNm"/>
+                                        <constraint firstAttribute="trailing" secondItem="2Zk-BZ-9eL" secondAttribute="trailing" constant="16" id="JXM-bD-iM7"/>
+                                        <constraint firstItem="16V-zX-VUe" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="topMargin" constant="10" id="LQV-LC-QQo"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="16V-zX-VUe" secondAttribute="trailing" constant="5" id="NeG-UE-NVA"/>
+                                        <constraint firstItem="pgb-3T-wTn" firstAttribute="leading" secondItem="nyl-F4-zel" secondAttribute="leading" constant="52" id="OSC-dd-CST"/>
+                                        <constraint firstItem="16V-zX-VUe" firstAttribute="leading" secondItem="rHi-IK-HTv" secondAttribute="trailing" constant="10" id="OZP-Or-Zc4"/>
+                                        <constraint firstItem="sNY-dN-olA" firstAttribute="leading" secondItem="nyl-F4-zel" secondAttribute="leading" constant="8" id="Tk6-hZ-127"/>
+                                        <constraint firstItem="4KS-yu-9l4" firstAttribute="leading" secondItem="nyl-F4-zel" secondAttribute="leadingMargin" constant="44" id="YZ4-Pb-yzF"/>
+                                        <constraint firstItem="xc2-dN-AdH" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="top" constant="40" id="dHJ-7l-Rdr"/>
+                                        <constraint firstItem="jZF-0b-7ch" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="top" constant="12" id="eXM-zV-zp3"/>
+                                        <constraint firstItem="pgb-3T-wTn" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="top" constant="10" id="gT1-4b-CTu"/>
+                                        <constraint firstAttribute="trailing" secondItem="pgb-3T-wTn" secondAttribute="trailing" constant="44" id="gkF-TH-fD8"/>
+                                        <constraint firstItem="2Zk-BZ-9eL" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="top" constant="18" id="jKC-Q3-2eb"/>
+                                        <constraint firstItem="HOo-Fy-SKk" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="topMargin" constant="2" id="lEX-Tp-IaR"/>
+                                        <constraint firstItem="HOo-Fy-SKk" firstAttribute="leading" secondItem="nyl-F4-zel" secondAttribute="leadingMargin" constant="46" id="oi0-Im-SmS"/>
+                                        <constraint firstAttribute="trailing" secondItem="jZF-0b-7ch" secondAttribute="trailing" constant="12" id="pRp-EF-Qdr"/>
+                                        <constraint firstItem="4KS-yu-9l4" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="topMargin" constant="4" id="pdZ-pP-RHP"/>
+                                        <constraint firstAttribute="bottom" secondItem="pgb-3T-wTn" secondAttribute="bottom" constant="23" id="uu4-fY-QJD"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="HOo-Fy-SKk" secondAttribute="trailing" constant="5" id="wwE-I1-vPF"/>
+                                        <constraint firstItem="rHi-IK-HTv" firstAttribute="top" secondItem="nyl-F4-zel" secondAttribute="top" constant="16" id="z1d-X6-kAZ"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="gkF-TH-fD8"/>
+                                            <exclude reference="dHJ-7l-Rdr"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="iconImageView" destination="sNY-dN-olA" id="R2u-Sg-9dT"/>
+                                    <outlet property="infoDateLabel" destination="xc2-dN-AdH" id="6qG-15-IzM"/>
+                                    <outlet property="infoFollowBtn" destination="2Zk-BZ-9eL" id="ORr-dQ-CT2"/>
+                                    <outlet property="infoFollowTextSuffixLabel" destination="pgb-3T-wTn" id="MTW-vS-A9S"/>
+                                    <outlet property="infoGoodPostImageView" destination="jZF-0b-7ch" id="0dj-tE-lZx"/>
+                                    <outlet property="infoOfficialNewsLabel" destination="16V-zX-VUe" id="F2d-SK-mYU"/>
+                                    <outlet property="infoRankUpImageView" destination="rHi-IK-HTv" id="ZpA-xY-LuV"/>
+                                    <outlet property="infoRankUpLabel" destination="HOo-Fy-SKk" id="7kh-gY-9lh"/>
+                                    <outlet property="userNameLabel" destination="4KS-yu-9l4" id="2vd-cq-b8o"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4KN-Bk-qH6" id="KnV-UT-dkJ"/>
+                            <outlet property="delegate" destination="4KN-Bk-qH6" id="jvt-VF-KX2"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="5dc-FJ-qHu"/>
+                    <connections>
+                        <outlet property="tableView" destination="pfW-jO-rai" id="0bf-Xc-rDE"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98I-Q7-HRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="624.375" y="231.33802816901408"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UMw-b8-xRc">
+            <objects>
+                <navigationController id="JXa-DK-azO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7YW-4M-5IM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4KN-Bk-qH6" kind="relationship" relationship="rootViewController" id="VOH-qt-5cJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyi-nc-7AG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-195" y="231.99999999999994"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ico_follow.png" width="30" height="24"/>
+        <image name="ico_noimgs.png" width="30" height="30"/>
+        <image name="ico_rankup.png" width="30" height="30"/>
+    </resources>
+</document>

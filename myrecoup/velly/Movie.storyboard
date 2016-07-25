@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RSb-KL-PWz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Recorder View Controller-->
+        <scene sceneID="vuy-Y4-Ygw">
+            <objects>
+                <viewController id="AS2-1J-Tzi" customClass="RecorderViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uwd-FC-ChF"/>
+                        <viewControllerLayoutGuide type="bottom" id="3mk-WY-AXB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g6T-qT-zC5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EVj-sq-h9s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cUh-zU-Mfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1140" y="321"/>
+        </scene>
+        <!--Movie Edit View Controller-->
+        <scene sceneID="U52-iT-HPW">
+            <objects>
+                <viewController storyboardIdentifier="MovieEditViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xcf-3p-Otz" customClass="MovieEditViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rNi-iE-hS5"/>
+                        <viewControllerLayoutGuide type="bottom" id="YDn-7r-fRc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ky7-Un-eA5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xl7-ZM-dMb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="225"/>
+        </scene>
+        <!--Thumnail Edit View Controller-->
+        <scene sceneID="dJy-Va-E2p">
+            <objects>
+                <viewController storyboardIdentifier="ThumnailEditViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="c8o-pC-ktn" customClass="ThumnailEditViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hfw-Jq-zeX"/>
+                        <viewControllerLayoutGuide type="bottom" id="M6u-Ox-Gxy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jRH-lR-HjE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJ8-ya-y0d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="864"/>
+        </scene>
+        <!--Movie Post View Controller-->
+        <scene sceneID="wlJ-us-RFP">
+            <objects>
+                <viewController storyboardIdentifier="MoviePostViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pQj-3v-ECe" customClass="MoviePostViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L4r-bO-zQa"/>
+                        <viewControllerLayoutGuide type="bottom" id="5eY-XX-I0n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jPN-ch-ZnN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SEH-Mi-KKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1801" y="1510"/>
+        </scene>
+        <!--Movie Post Category Table View Controller-->
+        <scene sceneID="zjs-Vs-d3u">
+            <objects>
+                <tableViewController storyboardIdentifier="MoviePostCategoryTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ykT-Z0-Sdb" customClass="MoviePostCategoryTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nN6-kX-RVj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCategoryTableViewCell" rowHeight="44" id="HXh-yU-zw2" userLabel="Post Category Table View Cell" customClass="PostCategoryTableViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HXh-yU-zw2" id="aJw-gI-1Hb">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_arrange.png" translatesAutoresizingMaskIntoConstraints="NO" id="aa3-HT-94b" userLabel="PostCategoryImageView">
+                                            <rect key="frame" x="10" y="9" width="26" height="26"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ヘアアレンジ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfi-2Q-vHs" userLabel="CategoryLabel">
+                                            <rect key="frame" x="50" y="11" width="280" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="280" id="hQd-3O-ALa"/>
+                                                <constraint firstAttribute="height" constant="21" id="hkB-oH-Gfs"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="16"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Hfi-2Q-vHs" firstAttribute="leading" secondItem="aJw-gI-1Hb" secondAttribute="leading" constant="50" id="APq-DV-h9W"/>
+                                        <constraint firstItem="Hfi-2Q-vHs" firstAttribute="top" secondItem="aJw-gI-1Hb" secondAttribute="top" constant="11" id="hLn-l4-mTt"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryImageView" destination="aa3-HT-94b" id="Uil-KM-9jg"/>
+                                    <outlet property="categoryLabel" destination="Hfi-2Q-vHs" id="T6H-Hl-1T1"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ykT-Z0-Sdb" id="QDd-MT-z0c"/>
+                            <outlet property="delegate" destination="ykT-Z0-Sdb" id="hTN-eJ-ndq"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lnL-CT-ctH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="2175"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fPc-pw-X2S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RSb-KL-PWz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o1F-S7-192">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AS2-1J-Tzi" kind="relationship" relationship="rootViewController" id="hIc-qr-QZz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6r-sB-GmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="321"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ico_arrange.png" width="16" height="17"/>
+    </resources>
+</document>

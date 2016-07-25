@@ -1,0 +1,41 @@
+//
+//  velly-Prefix.pch
+//  velly
+//
+//  Created by m_saruwatari on 2015/02/06.
+//  Copyright (c) 2015年 mamoru.saruwatari. All rights reserved.
+//
+
+#ifndef velly_velly_Prefix_pch
+#define velly_velly_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#ifndef __IPHONE_3_0
+//#warning "This project uses features only available in iOS SDK 3.0 and later."
+//#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "CoreData+MagicalRecord.h"
+    #import "LUKeychainAccess.h"
+// del
+    #import "QuickDialog.h"
+//    #import "QRootElement.h"
+//    #import "QuickDialogController.h"
+// del end
+    #import "AppConstant.h"
+    #import "Configuration.h"
+    #import <Availability.h>
+    #import "AppDelegate.h"
+#endif
+
+#define IOS7  ([[[[[UIDevice currentDevice] systemVersion]componentsSeparatedByString:@"."] objectAtIndex:0] intValue] >= 7)
+#define APP_DELEGATE_FUNC (AppDelegate*)[[UIApplication sharedApplication] delegate]
+#define STR_CASE(str) if ([__s__ isEqualToString:(str)])
+#define STR_SWITCH(s) for (NSString *__s__ = (s); ; )
+#define STR_DEFAULT
+
+#endif

@@ -1,0 +1,7 @@
+*/myrecoup.xcodeproj/*
+!*/myrecoup.xcodeproj/project.pbxproj
+*/myrecoup.xcworkspace/*
+!*/myrecoup.xcworkspace/contents.xcworkspacedata
+myrecoup/Build/*
+.DS_Store
+myrecoup/Pods/*

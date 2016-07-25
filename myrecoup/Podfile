@@ -1,0 +1,17 @@
+
+platform :ios,'7.0'
+
+target 'myrecoup' do
+    pod 'BlocksKit'                          , '2.2.5'
+    #pod 'Facebook-iOS-SDK'
+    pod 'Mixpanel'                           , '2.9.0'
+    pod 'SendBirdSDK'                        , '2.0.15'
+    pod 'BBBadgeBarButtonItem'               , '1.2'
+    pod "Repro"                              , '1.7.3'
+    pod 'Fabric'                             , '1.6.7'
+    pod 'Crashlytics'                        , '3.7.2'
+    pod 'CHTCollectionViewWaterfallLayout'   , '0.9.4'
+    pod 'Firebase'                           , '3.2.0'
+    pod 'Firebase/AdMob'           
+    pod 'Firebase/Crash'          
+end
